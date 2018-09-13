@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Bacnet_Cli id="Bacnet1">
+    <Baud_Rate>115200</Baud_Rate>
+    <Enable_COV>1</Enable_COV>
+    <COV_Subscription_Time>1800</COV_Subscription_Time>
+    <Serial_Ports>1</Serial_Ports>
+    <Reading_Interval>60</Reading_Interval>
+    <One_Reading_Numbers>20</One_Reading_Numbers>
+  </Bacnet_Cli>
+  <Bacnet_Cli id="Bacnet2">
+    <Baud_Rate>115200</Baud_Rate>
+    <Enable_COV>1</Enable_COV>
+    <COV_Subscription_Time>1800</COV_Subscription_Time>
+    <Serial_Ports>2</Serial_Ports>
+    <Reading_Interval>60</Reading_Interval>
+    <One_Reading_Numbers>20</One_Reading_Numbers>
+  </Bacnet_Cli>
+  <Bacnet_Cli id="Bacnet3">
+    <Baud_Rate>115200</Baud_Rate>
+    <Enable_COV>1</Enable_COV>
+    <COV_Subscription_Time>1800</COV_Subscription_Time>
+    <Serial_Ports>3</Serial_Ports>
+    <Reading_Interval>60</Reading_Interval>
+    <One_Reading_Numbers>20</One_Reading_Numbers>
+  </Bacnet_Cli>
+  <Bacnet_Cli id="Bacnet4">
+    <Baud_Rate>115200</Baud_Rate>
+    <Enable_COV>1</Enable_COV>
+    <COV_Subscription_Time>1800</COV_Subscription_Time>
+    <Serial_Ports>4</Serial_Ports>
+    <Reading_Interval>60</Reading_Interval>
+    <One_Reading_Numbers>20</One_Reading_Numbers>
+  </Bacnet_Cli>
+  <Bacnet_Cli id="Bacnet5">
+    <Baud_Rate>115200</Baud_Rate>
+    <Enable_COV>1</Enable_COV>
+    <COV_Subscription_Time>1800</COV_Subscription_Time>
+    <Serial_Ports>5</Serial_Ports>
+    <Reading_Interval>60</Reading_Interval>
+    <One_Reading_Numbers>20</One_Reading_Numbers>
+  </Bacnet_Cli>
+  <Bacnet_Cli id="Bacnet6">
+    <Baud_Rate>115200</Baud_Rate>
+    <Enable_COV>1</Enable_COV>
+    <COV_Subscription_Time>1800</COV_Subscription_Time>
+    <Serial_Ports>6</Serial_Ports>
+    <Reading_Interval>60</Reading_Interval>
+    <One_Reading_Numbers>20</One_Reading_Numbers>
+  </Bacnet_Cli>
+</root>

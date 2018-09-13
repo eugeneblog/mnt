@@ -1,0 +1,128 @@
+[
+  {
+    "Weekly_Schedule": {
+      "monday": [
+        {
+          "time": {
+            "hour": 1,
+            "minute": 2,
+            "second": 3,
+            "hundredths": 4
+          },
+          "value": "0"
+        },
+        {
+          "time": {
+            "hour": 4,
+            "minute": 4,
+            "second": 4,
+            "hundredths": 4
+          },
+          "value": "1"
+        },
+        {
+          "time": {
+            "hour": 3,
+            "minute": 3,
+            "second": 3,
+            "hundredths": 3
+          },
+          "value": "1"
+        },
+        {
+          "time": {
+            "hour": 2,
+            "minute": 2,
+            "second": 2,
+            "hundredths": 2
+          },
+          "value": "0"
+        }
+      ],
+      "thursday": [
+        {
+          "time": {
+            "hour": 1,
+            "minute": 1,
+            "second": 1,
+            "hundredths": 1
+          },
+          "value": "0"
+        },
+        {
+          "time": {
+            "hour": 2,
+            "minute": 2,
+            "second": 2,
+            "hundredths": 2
+          },
+          "value": "0"
+        }
+      ],
+      "sunday": [
+        {
+          "time": {
+            "hour": 1,
+            "minute": 1,
+            "second": 1,
+            "hundredths": 1
+          },
+          "value": "0"
+        }
+      ]
+    }
+  },
+
+
+  {
+    "Weekly_Schedule": {
+      "monday": [
+        {
+          "time": {
+            "hour": 8,
+            "minute": 22,
+            "second": 44,
+            "hundredths": 0
+          },
+          "value": true
+        },
+        {
+          "time": {
+            "hour": 9,
+            "minute": 34,
+            "second": 33,
+            "hundredths": 0
+          },
+          "value": false
+        }
+      ],
+      "tuesday": [
+        {
+          "time": {
+            "hour": 7,
+            "minute": 0,
+            "second": 8,
+            "hundredths": 0
+          },
+          "value": true
+        },
+        {
+          "time": {
+            "hour": 8,
+            "minute": 11,
+            "second": 58,
+            "hundredths": 0
+          },
+          "value": false
+        }
+      ],
+      "wednesday": [],
+      "thursday": [],
+      "friday": [],
+      "saturday": [],
+      "sunday": []
+    }
+  },
+
+  {"dateRange":{"startDate":{"year":2017,"month":1,"day_of_month":2,"day_of_week":1},"endDate":{"year":2017,"month":1,"day_of_month":2,"day_of_week":01}}}
+]

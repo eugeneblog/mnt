@@ -1,0 +1,32 @@
+#!/bin/sh 
+
+# add user specified script
+cd /dev
+ln -s /dev/fb/0 fb0
+
+#ubiattach /dev/ubi_ctrl -m 3
+mount -t ubifs -o sync ubi1_0 /mnt/nandflash
+
+# make device node for ppp
+mknod /dev/ppp c 108 0
+chmod 600 /dev/ppp
+mkdir /var/run
+chmod 777 /var/run
+
+mkdir -p /var/run/wpa_supplicant
+
+# mkdir /dev/input
+
+# mknod /dev/input/event0 c 13 64
+# mknod /dev/input/event1 c 13 65
+
+ifconfig lo up
+sysctl -p /etc/sysctl.conf
+/mnt/nandflash/web_arm/apache2.4/bin/apachectl start
+sleep 3
+
+/usr/bin/smserver /usr/bin/sm.conf
+telnetd
+/usr/bin/lstartup-szqj
+ifconfig eth0 up
+rm -f /mnt/nandflash/web_arm/apache2.4/logs/httpd.pid

@@ -1,0 +1,2674 @@
+[
+  {
+    "value": "1000601",
+    "name": "Schedule-1"
+  },
+  {
+    "value": "1000602",
+    "name": "schedule_5"
+  },
+  {
+    "value": "1000603",
+    "name": "schedule-2"
+  },
+  {
+    "value": "1000604",
+    "name": "schedule-3"
+  },
+  {
+    "value": "1000605",
+    "name": "schedule-4"
+  },
+  {
+    "value": "1001001",
+    "name": "UI1 "
+  },
+  {
+    "value": "1001002",
+    "name": "UI2 "
+  },
+  {
+    "value": "1001003",
+    "name": "UI3 "
+  },
+  {
+    "value": "1001004",
+    "name": "UI4 "
+  },
+  {
+    "value": "1001005",
+    "name": "UI5 "
+  },
+  {
+    "value": "1001006",
+    "name": "UI6 "
+  },
+  {
+    "value": "1001101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1001102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1001103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1001104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1001201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1001202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1001203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1001204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1001205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1001301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1001302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1001303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1001304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1001305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1001306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1001307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1001308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1001401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1001402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1001403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1001404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1001405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1001406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1001501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1001502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1001503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1001504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1001505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1001801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1002001",
+    "name": "2-UI1"
+  },
+  {
+    "value": "1002002",
+    "name": "2-UI2"
+  },
+  {
+    "value": "1002003",
+    "name": "2-UI3"
+  },
+  {
+    "value": "1002004",
+    "name": "2-UI4"
+  },
+  {
+    "value": "1002005",
+    "name": "2-UI5"
+  },
+  {
+    "value": "1002006",
+    "name": "2-UI6"
+  },
+  {
+    "value": "1002101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1002102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1002103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1002104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1002201",
+    "name": "2-AV1"
+  },
+  {
+    "value": "1002202",
+    "name": "2-AV2"
+  },
+  {
+    "value": "1002203",
+    "name": "2-AV3"
+  },
+  {
+    "value": "1002204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1002205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1002301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1002302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1002303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1002304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1002305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1002306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1002307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1002308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1002309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1002310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1002311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1002312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1002313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1002314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1002315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1002316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1002317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1002318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1002319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1002320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1002321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1002401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1002402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1002403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1002404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1002405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1002406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1002501",
+    "name": "2-BV1"
+  },
+  {
+    "value": "1002502",
+    "name": "2-BV2"
+  },
+  {
+    "value": "1002503",
+    "name": "2-BV3"
+  },
+  {
+    "value": "1002504",
+    "name": "2-BV4"
+  },
+  {
+    "value": "1002505",
+    "name": "2-BV5"
+  },
+  {
+    "value": "1002506",
+    "name": "2-BV6"
+  },
+  {
+    "value": "1002601",
+    "name": "2-SCHEDULE1"
+  },
+  {
+    "value": "1002602",
+    "name": "2-SCHEDULE2"
+  },
+  {
+    "value": "1002701",
+    "name": "Command"
+  },
+  {
+    "value": "1002801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1003001",
+    "name": "UI1 "
+  },
+  {
+    "value": "1003002",
+    "name": "UI2 "
+  },
+  {
+    "value": "1003003",
+    "name": "UI3 "
+  },
+  {
+    "value": "1003004",
+    "name": "UI4 "
+  },
+  {
+    "value": "1003005",
+    "name": "UI5 "
+  },
+  {
+    "value": "1003006",
+    "name": "UI6 "
+  },
+  {
+    "value": "1003101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1003102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1003103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1003104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1003201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1003202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1003203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1003204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1003205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1003301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1003302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1003303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1003304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1003305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1003306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1003307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1003308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1003309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1003310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1003311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1003312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1003313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1003314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1003315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1003316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1003317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1003318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1003319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1003320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1003321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1003322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1003401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1003402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1003403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1003404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1003405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1003406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1003501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1003502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1003503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1003504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1003505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1003506",
+    "name": "BV6"
+  },
+  {
+    "value": "1003507",
+    "name": "BV7"
+  },
+  {
+    "value": "1003508",
+    "name": "BV8"
+  },
+  {
+    "value": "1003509",
+    "name": "BV9"
+  },
+  {
+    "value": "1003510",
+    "name": "BV10"
+  },
+  {
+    "value": "1003511",
+    "name": "BV11"
+  },
+  {
+    "value": "1003512",
+    "name": "BV12"
+  },
+  {
+    "value": "1003601",
+    "name": "3-SCHEDULE1"
+  },
+  {
+    "value": "1003602",
+    "name": "3-SCHEDULE2"
+  },
+  {
+    "value": "1003603",
+    "name": "3-SH3"
+  },
+  {
+    "value": "1003604",
+    "name": "3-SH4"
+  },
+  {
+    "value": "1003701",
+    "name": "Command"
+  },
+  {
+    "value": "1003801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1004001",
+    "name": "UI1 "
+  },
+  {
+    "value": "1004002",
+    "name": "UI2 "
+  },
+  {
+    "value": "1004003",
+    "name": "UI3 "
+  },
+  {
+    "value": "1004004",
+    "name": "UI4 "
+  },
+  {
+    "value": "1004005",
+    "name": "UI5 "
+  },
+  {
+    "value": "1004006",
+    "name": "UI6 "
+  },
+  {
+    "value": "1004101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1004102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1004103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1004104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1004201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1004202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1004203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1004204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1004205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1004301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1004302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1004303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1004304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1004305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1004306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1004307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1004308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1004309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1004310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1004311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1004312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1004313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1004314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1004315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1004316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1004317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1004318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1004319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1004320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1004321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1004322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1004401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1004402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1004403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1004404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1004405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1004406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1004501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1004502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1004503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1004504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1004505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1004506",
+    "name": "bv6"
+  },
+  {
+    "value": "1004601",
+    "name": "4-SCHEDULE1"
+  },
+  {
+    "value": "1004602",
+    "name": "4-SCHEDULE2"
+  },
+  {
+    "value": "1004701",
+    "name": "Command"
+  },
+  {
+    "value": "1004801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1005001",
+    "name": "UI1 "
+  },
+  {
+    "value": "1005002",
+    "name": "UI2 "
+  },
+  {
+    "value": "1005003",
+    "name": "UI3 "
+  },
+  {
+    "value": "1005004",
+    "name": "UI4 "
+  },
+  {
+    "value": "1005005",
+    "name": "UI5 "
+  },
+  {
+    "value": "1005006",
+    "name": "UI6 "
+  },
+  {
+    "value": "1005101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1005102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1005103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1005104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1005201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1005202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1005203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1005204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1005205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1005301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1005302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1005303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1005304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1005305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1005306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1005307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1005308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1005309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1005310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1005311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1005312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1005313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1005314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1005315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1005316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1005317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1005318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1005319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1005320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1005321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1005322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1005401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1005402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1005403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1005404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1005405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1005406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1005501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1005502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1005503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1005504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1005505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1005506",
+    "name": "BV6"
+  },
+  {
+    "value": "1005601",
+    "name": "5-SCHEDULE1"
+  },
+  {
+    "value": "1005602",
+    "name": "5-SCHEDULE2"
+  },
+  {
+    "value": "1005701",
+    "name": "Command"
+  },
+  {
+    "value": "1005801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1006001",
+    "name": ""
+  },
+  {
+    "value": "1006002",
+    "name": "UI2 "
+  },
+  {
+    "value": "1006003",
+    "name": ""
+  },
+  {
+    "value": "1006004",
+    "name": "UI4 "
+  },
+  {
+    "value": "1006005",
+    "name": "UI5 "
+  },
+  {
+    "value": "1006006",
+    "name": ""
+  },
+  {
+    "value": "1006101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1006102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1006103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1006104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1006201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1006202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1006203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1006204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1006205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1006301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1006302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1006303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1006304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1006305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1006306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1006307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1006308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1006309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1006310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1006311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1006312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1006313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1006314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1006315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1006316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1006317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1006318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1006319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1006320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1006321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1006322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1006401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1006402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1006403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1006404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1006405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1006406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1006501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1006502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1006503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1006504",
+    "name": ""
+  },
+  {
+    "value": "1006505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1006506",
+    "name": "BV6"
+  },
+  {
+    "value": "1006507",
+    "name": "BV7"
+  },
+  {
+    "value": "1006508",
+    "name": ""
+  },
+  {
+    "value": "1006509",
+    "name": ""
+  },
+  {
+    "value": "1006601",
+    "name": "6-SCHEDULE1"
+  },
+  {
+    "value": "1006602",
+    "name": "6-SCHEDULE2"
+  },
+  {
+    "value": "1006603",
+    "name": "6-SH3"
+  },
+  {
+    "value": "1006701",
+    "name": "Command"
+  },
+  {
+    "value": "1006801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1007001",
+    "name": "7-UI1"
+  },
+  {
+    "value": "1007002",
+    "name": "7-UI1"
+  },
+  {
+    "value": "1007003",
+    "name": "7-UI3"
+  },
+  {
+    "value": "1007004",
+    "name": "7-UI4"
+  },
+  {
+    "value": "1007005",
+    "name": "7-UI5"
+  },
+  {
+    "value": "1007006",
+    "name": "7-UI6"
+  },
+  {
+    "value": "1007101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1007102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1007103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1007104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1007201",
+    "name": "7-VA1"
+  },
+  {
+    "value": "1007202",
+    "name": "7-VA2"
+  },
+  {
+    "value": "1007203",
+    "name": "7-VA3"
+  },
+  {
+    "value": "1007204",
+    "name": "7-VA4"
+  },
+  {
+    "value": "1007205",
+    "name": "7-VA5"
+  },
+  {
+    "value": "1007301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1007302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1007303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1007304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1007305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1007306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1007307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1007308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1007309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1007310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1007311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1007312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1007313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1007314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1007315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1007316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1007317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1007318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1007319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1007320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1007321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1007322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1007401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1007402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1007403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1007404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1007405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1007406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1007501",
+    "name": "7-BV1"
+  },
+  {
+    "value": "1007502",
+    "name": "7-BV2"
+  },
+  {
+    "value": "1007503",
+    "name": "7-BV3"
+  },
+  {
+    "value": "1007504",
+    "name": "7-BV4"
+  },
+  {
+    "value": "1007505",
+    "name": "7-BV5"
+  },
+  {
+    "value": "1007506",
+    "name": "7-BV6"
+  },
+  {
+    "value": "1007601",
+    "name": "7-SCHEDULE1"
+  },
+  {
+    "value": "1007602",
+    "name": "7-SCHEDULE2"
+  },
+  {
+    "value": "1007701",
+    "name": "Command"
+  },
+  {
+    "value": "1007801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1008006",
+    "name": ""
+  },
+  {
+    "value": "1008101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1008102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1008103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1008104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1008201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1008202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1008203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1008204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1008205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1008301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1008302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1008303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1008304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1008305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1008306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1008307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1008308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1008309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1008310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1008311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1008312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1008313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1008314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1008315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1008316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1008317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1008318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1008319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1008320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1008321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1008322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1008401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1008402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1008403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1008404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1008405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1008406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1008501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1008502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1008503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1008504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1008505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1008506",
+    "name": "BV6"
+  },
+  {
+    "value": "1008507",
+    "name": "BV7"
+  },
+  {
+    "value": "1008508",
+    "name": "BV8"
+  },
+  {
+    "value": "1008509",
+    "name": "BV9"
+  },
+  {
+    "value": "1008601",
+    "name": "8-SCHEDULE1"
+  },
+  {
+    "value": "1008602",
+    "name": "8-SCHEDULE2"
+  },
+  {
+    "value": "1008603",
+    "name": "8-SH3"
+  },
+  {
+    "value": "1008701",
+    "name": "Command"
+  },
+  {
+    "value": "1008801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1009001",
+    "name": "UI1 "
+  },
+  {
+    "value": "1009002",
+    "name": "UI2 "
+  },
+  {
+    "value": "1009101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1009102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1009103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1009104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1009201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1009202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1009203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1009204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1009205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1009301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1009302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1009303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1009304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1009305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1009306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1009307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1009308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1009309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1009310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1009311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1009312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1009313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1009314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1009315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1009316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1009319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1009320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1009321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1009322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1009401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1009402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1009403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1009404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1009405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1009406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1009501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1009502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1009503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1009504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1009505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1009601",
+    "name": "9-SCHEDULE1"
+  },
+  {
+    "value": "1009602",
+    "name": "9-SCHEDULE2"
+  },
+  {
+    "value": "1009701",
+    "name": "Command"
+  },
+  {
+    "value": "1009801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1010004",
+    "name": ""
+  },
+  {
+    "value": "1010101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1010102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1010103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1010104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1010201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1010202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1010203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1010204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1010205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1010301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1010302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1010303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1010304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1010305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1010306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1010307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1010308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1010309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1010310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1010311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1010312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1010313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1010314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1010315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1010316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1010317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1010318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1010319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1010320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1010321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1010322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1010401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1010402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1010403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1010404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1010405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1010406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1010501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1010502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1010503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1010504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1010505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1010601",
+    "name": "SCHEDULE1"
+  },
+  {
+    "value": "1010602",
+    "name": "SCHEDULE2"
+  },
+  {
+    "value": "1010701",
+    "name": "Command"
+  },
+  {
+    "value": "1010801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1011101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1011102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1011103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1011104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1011201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1011202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1011203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1011204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1011205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1011301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1011302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1011303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1011304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1011305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1011306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1011307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1011308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1011309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1011310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1011311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1011312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1011313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1011314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1011315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1011316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1011317",
+    "name": "BINARY_INPUT 17"
+  },
+  {
+    "value": "1011318",
+    "name": "BINARY_INPUT 18"
+  },
+  {
+    "value": "1011319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1011320",
+    "name": "BINARY_INPUT 20"
+  },
+  {
+    "value": "1011321",
+    "name": "BINARY_INPUT 21"
+  },
+  {
+    "value": "1011322",
+    "name": "BINARY_INPUT 22"
+  },
+  {
+    "value": "1011401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1011402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1011403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1011404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1011405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1011406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "1011501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "1011502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "1011503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "1011504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1011505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1011601",
+    "name": "11-SCHEDULE1"
+  },
+  {
+    "value": "1011602",
+    "name": "11-SCHEDULE2"
+  },
+  {
+    "value": "1011701",
+    "name": "Command"
+  },
+  {
+    "value": "1011801",
+    "name": "i1024Controller"
+  },
+  {
+    "value": "1012001",
+    "name": "UI1 "
+  },
+  {
+    "value": "1012002",
+    "name": "UI2 "
+  },
+  {
+    "value": "1012101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "1012102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "1012103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "1012104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "1012201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "1012202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "1012203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1012204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "1012205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "1012301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "1012302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "1012303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "1012304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "1012305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "1012306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "1012307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "1012308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "1012309",
+    "name": "BINARY_INPUT 9"
+  },
+  {
+    "value": "1012310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1012311",
+    "name": "BINARY_INPUT 11"
+  },
+  {
+    "value": "1012312",
+    "name": "BINARY_INPUT 12"
+  },
+  {
+    "value": "1012313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1012314",
+    "name": "BINARY_INPUT 14"
+  },
+  {
+    "value": "1012315",
+    "name": "BINARY_INPUT 15"
+  },
+  {
+    "value": "1012316",
+    "name": "BINARY_INPUT 16"
+  },
+  {
+    "value": "1012319",
+    "name": "BINARY_INPUT 19"
+  },
+  {
+    "value": "1012320",
+    "name": ""
+  },
+  {
+    "value": "1012321",
+    "name": ""
+  },
+  {
+    "value": "1012322",
+    "name": ""
+  },
+  {
+    "value": "1012401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "1012402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "1012403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "1012404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "1012405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "1012406",
+    "name": ""
+  },
+  {
+    "value": "1012501",
+    "name": ""
+  },
+  {
+    "value": "1012502",
+    "name": ""
+  },
+  {
+    "value": "1012503",
+    "name": ""
+  },
+  {
+    "value": "1012504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "1012505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "1012601",
+    "name": "12-SCHEDULE1"
+  },
+  {
+    "value": "1012602",
+    "name": "12-SCHEDULE2"
+  },
+  {
+    "value": "1012701",
+    "name": ""
+  },
+  {
+    "value": "1013001",
+    "name": ""
+  },
+  {
+    "value": "1013104",
+    "name": ""
+  },
+  {
+    "value": "1013201",
+    "name": ""
+  },
+  {
+    "value": "1013202",
+    "name": ""
+  },
+  {
+    "value": "1013203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "1013204",
+    "name": ""
+  },
+  {
+    "value": "1013205",
+    "name": ""
+  },
+  {
+    "value": "1013301",
+    "name": ""
+  },
+  {
+    "value": "1013302",
+    "name": ""
+  },
+  {
+    "value": "1013303",
+    "name": ""
+  },
+  {
+    "value": "1013304",
+    "name": ""
+  },
+  {
+    "value": "1013305",
+    "name": ""
+  },
+  {
+    "value": "1013306",
+    "name": ""
+  },
+  {
+    "value": "1013307",
+    "name": ""
+  },
+  {
+    "value": "1013308",
+    "name": ""
+  },
+  {
+    "value": "1013309",
+    "name": ""
+  },
+  {
+    "value": "1013310",
+    "name": "BINARY_INPUT 10"
+  },
+  {
+    "value": "1013311",
+    "name": ""
+  },
+  {
+    "value": "1013312",
+    "name": ""
+  },
+  {
+    "value": "1013313",
+    "name": "BINARY_INPUT 13"
+  },
+  {
+    "value": "1013314",
+    "name": ""
+  },
+  {
+    "value": "1013315",
+    "name": ""
+  },
+  {
+    "value": "1013316",
+    "name": ""
+  },
+  {
+    "value": "1013317",
+    "name": ""
+  },
+  {
+    "value": "1013318",
+    "name": ""
+  },
+  {
+    "value": "1013319",
+    "name": ""
+  },
+  {
+    "value": "1101601",
+    "name": "qw"
+  },
+  {
+    "value": "8888001",
+    "name": "UI1 "
+  },
+  {
+    "value": "8888002",
+    "name": "UI2 "
+  },
+  {
+    "value": "8888003",
+    "name": "UI3 "
+  },
+  {
+    "value": "8888004",
+    "name": "UI4 "
+  },
+  {
+    "value": "8888005",
+    "name": "UI5 "
+  },
+  {
+    "value": "8888006",
+    "name": "UI6 "
+  },
+  {
+    "value": "8888101",
+    "name": "ANALOG OUTPUT1"
+  },
+  {
+    "value": "8888102",
+    "name": "ANALOG OUTPUT2"
+  },
+  {
+    "value": "8888103",
+    "name": "ANALOG OUTPUT3"
+  },
+  {
+    "value": "8888104",
+    "name": "ANALOG OUTPUT4"
+  },
+  {
+    "value": "8888201",
+    "name": "ANALOG VALUE1"
+  },
+  {
+    "value": "8888202",
+    "name": "ANALOG VALUE2"
+  },
+  {
+    "value": "8888203",
+    "name": "ANALOG VALUE3"
+  },
+  {
+    "value": "8888204",
+    "name": "ANALOG VALUE4"
+  },
+  {
+    "value": "8888205",
+    "name": "ANALOG VALUE5"
+  },
+  {
+    "value": "8888301",
+    "name": "BINARY_INPUT1"
+  },
+  {
+    "value": "8888302",
+    "name": "BINARY_INPUT2"
+  },
+  {
+    "value": "8888303",
+    "name": "BINARY_INPUT3"
+  },
+  {
+    "value": "8888304",
+    "name": "BINARY_INPUT4"
+  },
+  {
+    "value": "8888305",
+    "name": "BINARY_INPUT5"
+  },
+  {
+    "value": "8888306",
+    "name": "BINARY_INPUT6"
+  },
+  {
+    "value": "8888307",
+    "name": "BINARY_INPUT7"
+  },
+  {
+    "value": "8888308",
+    "name": "BINARY_INPUT8"
+  },
+  {
+    "value": "8888401",
+    "name": "BINARY_OUTPUT 1"
+  },
+  {
+    "value": "8888402",
+    "name": "BINARY_OUTPUT 2"
+  },
+  {
+    "value": "8888403",
+    "name": "BINARY_OUTPUT 3"
+  },
+  {
+    "value": "8888404",
+    "name": "BINARY_OUTPUT 4"
+  },
+  {
+    "value": "8888405",
+    "name": "BINARY_OUTPUT 5"
+  },
+  {
+    "value": "8888406",
+    "name": "BINARY_OUTPUT 6"
+  },
+  {
+    "value": "8888501",
+    "name": "BINARY_VALUE1"
+  },
+  {
+    "value": "8888502",
+    "name": "BINARY_VALUE2"
+  },
+  {
+    "value": "8888503",
+    "name": "BINARY_VALUE3"
+  },
+  {
+    "value": "8888504",
+    "name": "BINARY_VALUE4"
+  },
+  {
+    "value": "8888505",
+    "name": "BINARY_VALUE5"
+  },
+  {
+    "value": "8888601",
+    "name": "21"
+  },
+  {
+    "value": "8888801",
+    "name": "i1024Controller"
+  }
+]

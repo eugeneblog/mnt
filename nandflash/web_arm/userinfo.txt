@@ -1,0 +1,8 @@
+[LOCAL_MACHINE]
+DHCP="0.0.0.0"
+DefaultGateway="192.168.253.1"
+IPAddress="192.168.253.253"
+SubnetMask="255.255.255.0"
+[USER_EXE]
+Name="/mnt/nandflash/web_arm/build.sh"
+Parameters=""

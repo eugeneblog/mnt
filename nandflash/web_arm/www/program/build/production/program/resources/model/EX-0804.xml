@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+ <key number="1001321">
+  <Object_Name>BI21</Object_Name>
+  <Description>BINARY_INPUT 2</Description>
+  <Device_Type>normal open</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001322">
+  <Object_Name>BI22</Object_Name>
+  <Description>BI22</Description>
+  <Device_Type>normal open</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001323">
+  <Object_Name>BI23</Object_Name>
+  <Description>BI23</Description>
+  <Device_Type>normal open</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001324">
+  <Object_Name>BI24</Object_Name>
+  <Description>BI24</Description>
+  <Device_Type>normal open</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001325">
+  <Object_Name>BI25</Object_Name>
+  <Description>BI25</Description>
+  <Device_Type>normal open</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001326">
+  <Object_Name>BI26</Object_Name>
+  <Description>BI26</Description>
+  <Device_Type>normal open</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001327">
+  <Object_Name>BI27</Object_Name>
+  <Description>BI27</Description>
+  <Device_Type>normal open</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001328">
+  <Object_Name>BI28</Object_Name>
+  <Description>BI28</Description>
+  <Device_Type>normal open</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+  <key number="1001421">
+  <Object_Name>BO21</Object_Name>
+  <Description>BO21</Description>
+  <Device_Type>normal</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001422">
+  <Object_Name>BO22</Object_Name>
+  <Description>BO22</Description>
+  <Device_Type>normal</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001423">
+  <Object_Name>BO23</Object_Name>
+  <Description>BO23</Description>
+  <Device_Type>normal</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+ <key number="1001424">
+  <Object_Name>BO24</Object_Name>
+  <Description>BO24</Description>
+  <Device_Type>normal</Device_Type>
+  <Inactive_Text>Off</Inactive_Text>
+  <Active_Text>On</Active_Text>
+  <Event_Enable>0</Event_Enable>
+  <Notify_Type>0</Notify_Type>
+  <Time_Delay>0</Time_Delay>
+  <Alarm_Value>0</Alarm_Value>
+  <Notification_Class>1</Notification_Class>
+ </key>
+</root>

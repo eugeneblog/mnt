@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <name>DDC_13F</name>
+    <net>2100</net>
+    <read_time>10000</read_time>
+    <com>3</com>
+    <baut>38400</baut>
+    <check>no</check>
+    <max_master>127</max_master>
+    <max_frame>64</max_frame>
+    <clientip/>
+    <type>1</type>
+    <lport>47808</lport>
+    <rport>47800</rport>
+</root>
