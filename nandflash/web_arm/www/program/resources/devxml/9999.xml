@@ -7,7 +7,7 @@
  <BO_count>22</BO_count>
  <BV_count>5</BV_count>
  <SCHEDULE_count>0</SCHEDULE_count>
- <key  number="1001321">
+ <key  number="3434321">
   <Object_Name>BI21</Object_Name>
   <Description>BINARY_INPUT 2</Description>
   <Device_Type>normal open</Device_Type>
@@ -19,7 +19,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001322">
+ <key  number="3434322">
   <Object_Name>BI22</Object_Name>
   <Description>BI22</Description>
   <Device_Type>normal open</Device_Type>
@@ -31,7 +31,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001323">
+ <key  number="3434323">
   <Object_Name>BI23</Object_Name>
   <Description>BI23</Description>
   <Device_Type>normal open</Device_Type>
@@ -43,7 +43,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001324">
+ <key  number="3434324">
   <Object_Name>BI24</Object_Name>
   <Description>BI24</Description>
   <Device_Type>normal open</Device_Type>
@@ -55,7 +55,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001325">
+ <key  number="3434325">
   <Object_Name>BI25</Object_Name>
   <Description>BI25</Description>
   <Device_Type>normal open</Device_Type>
@@ -67,7 +67,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001326">
+ <key  number="3434326">
   <Object_Name>BI26</Object_Name>
   <Description>BI26</Description>
   <Device_Type>normal open</Device_Type>
@@ -79,7 +79,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001327">
+ <key  number="3434327">
   <Object_Name>BI27</Object_Name>
   <Description>BI27</Description>
   <Device_Type>normal open</Device_Type>
@@ -91,7 +91,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001328">
+ <key  number="3434328">
   <Object_Name>BI28</Object_Name>
   <Description>BI28</Description>
   <Device_Type>normal open</Device_Type>
@@ -103,7 +103,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001331">
+ <key  number="3434331">
   <Object_Name>BI31</Object_Name>
   <Description>BINARY_INPUT 3</Description>
   <Device_Type>normal open</Device_Type>
@@ -115,7 +115,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001332">
+ <key  number="3434332">
   <Object_Name>BI32</Object_Name>
   <Description>BI32</Description>
   <Device_Type>normal open</Device_Type>
@@ -127,7 +127,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001333">
+ <key  number="3434333">
   <Object_Name>BI33</Object_Name>
   <Description>BI33</Description>
   <Device_Type>normal open</Device_Type>
@@ -139,7 +139,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001334">
+ <key  number="3434334">
   <Object_Name>BI34</Object_Name>
   <Description>BI34</Description>
   <Device_Type>normal open</Device_Type>
@@ -151,7 +151,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001335">
+ <key  number="3434335">
   <Object_Name>BI35</Object_Name>
   <Description>BI35</Description>
   <Device_Type>normal open</Device_Type>
@@ -163,7 +163,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001336">
+ <key  number="3434336">
   <Object_Name>BI36</Object_Name>
   <Description>BI36</Description>
   <Device_Type>normal open</Device_Type>
@@ -175,7 +175,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001337">
+ <key  number="3434337">
   <Object_Name>BI37</Object_Name>
   <Description>BI37</Description>
   <Device_Type>normal open</Device_Type>
@@ -187,7 +187,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001338">
+ <key  number="3434338">
   <Object_Name>BI38</Object_Name>
   <Description>BI38</Description>
   <Device_Type>normal open</Device_Type>
@@ -199,7 +199,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001341">
+ <key  number="3434341">
   <Object_Name>BI41</Object_Name>
   <Description>BINARY_INPUT 4</Description>
   <Device_Type>normal open</Device_Type>
@@ -211,7 +211,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001342">
+ <key  number="3434342">
   <Object_Name>BI42</Object_Name>
   <Description>BI42</Description>
   <Device_Type>normal open</Device_Type>
@@ -223,7 +223,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001343">
+ <key  number="3434343">
   <Object_Name>BI43</Object_Name>
   <Description>BI43</Description>
   <Device_Type>normal open</Device_Type>
@@ -235,7 +235,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001344">
+ <key  number="3434344">
   <Object_Name>BI44</Object_Name>
   <Description>BI44</Description>
   <Device_Type>normal open</Device_Type>
@@ -247,7 +247,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001345">
+ <key  number="3434345">
   <Object_Name>BI45</Object_Name>
   <Description>BI45</Description>
   <Device_Type>normal open</Device_Type>
@@ -259,7 +259,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001346">
+ <key  number="3434346">
   <Object_Name>BI46</Object_Name>
   <Description>BI46</Description>
   <Device_Type>normal open</Device_Type>
@@ -271,7 +271,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001347">
+ <key  number="3434347">
   <Object_Name>BI47</Object_Name>
   <Description>BI47</Description>
   <Device_Type>normal open</Device_Type>
@@ -283,7 +283,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001348">
+ <key  number="3434348">
   <Object_Name>BI48</Object_Name>
   <Description>BI48</Description>
   <Device_Type>normal open</Device_Type>
@@ -295,7 +295,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001421">
+ <key  number="3434421">
   <Object_Name>BO21</Object_Name>
   <Description>BO21</Description>
   <Device_Type>normal</Device_Type>
@@ -307,7 +307,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001422">
+ <key  number="3434422">
   <Object_Name>BO22</Object_Name>
   <Description>BO22</Description>
   <Device_Type>normal</Device_Type>
@@ -319,7 +319,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001423">
+ <key  number="3434423">
   <Object_Name>BO23</Object_Name>
   <Description>BO23</Description>
   <Device_Type>normal</Device_Type>
@@ -331,7 +331,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001424">
+ <key  number="3434424">
   <Object_Name>BO24</Object_Name>
   <Description>BO24</Description>
   <Device_Type>normal</Device_Type>
@@ -343,7 +343,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001431">
+ <key  number="3434431">
   <Object_Name>BO31</Object_Name>
   <Description>BO31</Description>
   <Device_Type>normal</Device_Type>
@@ -355,7 +355,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001432">
+ <key  number="3434432">
   <Object_Name>BO32</Object_Name>
   <Description>BO32</Description>
   <Device_Type>normal</Device_Type>
@@ -367,7 +367,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001433">
+ <key  number="3434433">
   <Object_Name>BO33</Object_Name>
   <Description>BO33</Description>
   <Device_Type>normal</Device_Type>
@@ -379,7 +379,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001434">
+ <key  number="3434434">
   <Object_Name>BO34</Object_Name>
   <Description>BO34</Description>
   <Device_Type>normal</Device_Type>
@@ -391,7 +391,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001441">
+ <key  number="3434441">
   <Object_Name>BO41</Object_Name>
   <Description>BO41</Description>
   <Device_Type>normal</Device_Type>
@@ -403,7 +403,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001442">
+ <key  number="3434442">
   <Object_Name>BO42</Object_Name>
   <Description>BO42</Description>
   <Device_Type>normal</Device_Type>
@@ -415,7 +415,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001443">
+ <key  number="3434443">
   <Object_Name>BO43</Object_Name>
   <Description>BO43</Description>
   <Device_Type>normal</Device_Type>
@@ -427,7 +427,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="1001444">
+ <key  number="3434444">
   <Object_Name>BO44</Object_Name>
   <Description>BO44</Description>
   <Device_Type>normal</Device_Type>
@@ -439,7 +439,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999001">
+ <key  number="3434001">
   <Object_Name>UI1 </Object_Name>
   <Offset>0.100</Offset>
   <Description>ANALOG INPUT 1</Description>
@@ -457,7 +457,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999002">
+ <key  number="3434002">
   <Object_Name>UI2 </Object_Name>
   <Offset>0.000</Offset>
   <Description>ANALOG INPUT2</Description>
@@ -475,7 +475,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999003">
+ <key  number="3434003">
   <Object_Name>UI3 </Object_Name>
   <Offset>0.000</Offset>
   <Description>ANALOG INPUT3</Description>
@@ -493,7 +493,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999004">
+ <key  number="3434004">
   <Object_Name>UI4 </Object_Name>
   <Offset>0.000</Offset>
   <Description>ANALOG INPUT4</Description>
@@ -511,7 +511,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999005">
+ <key  number="3434005">
   <Object_Name>UI5 </Object_Name>
   <Offset>0.000</Offset>
   <Description>ANALOG INPUT3</Description>
@@ -529,7 +529,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999006">
+ <key  number="3434006">
   <Object_Name>UI6 </Object_Name>
   <Offset>0.000</Offset>
   <Description>ANALOG INPUT3</Description>
@@ -547,7 +547,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999101">
+ <key  number="3434101">
   <Object_Name>ANALOG OUTPUT1</Object_Name>
   <Offset>1.000</Offset>
   <Description>ANALOG OUTPUT1</Description>
@@ -562,7 +562,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999102">
+ <key  number="3434102">
   <Object_Name>ANALOG OUTPUT2</Object_Name>
   <Offset>1.000</Offset>
   <Description>ANALOG OUTPUT2</Description>
@@ -577,7 +577,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999103">
+ <key  number="3434103">
   <Object_Name>ANALOG OUTPUT3</Object_Name>
   <Offset>1.000</Offset>
   <Description>ANALOG OUTPUT 3</Description>
@@ -592,7 +592,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999104">
+ <key  number="3434104">
   <Object_Name>ANALOG OUTPUT4</Object_Name>
   <Offset>1.000</Offset>
   <Description>ANALOG OUTPUT4</Description>
@@ -607,7 +607,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999201">
+ <key  number="3434201">
   <Object_Name>ANALOG VALUE1</Object_Name>
   <Description>ANALOG VALUE 1</Description>
   <COV_Increment>0.500</COV_Increment>
@@ -620,7 +620,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999202">
+ <key  number="3434202">
   <Object_Name>ANALOG VALUE2</Object_Name>
   <Description>ANALOG VALUE 2</Description>
   <COV_Increment>0.500</COV_Increment>
@@ -633,7 +633,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999203">
+ <key  number="3434203">
   <Object_Name>ANALOG VALUE3</Object_Name>
   <Description>ANALOG VALUE3</Description>
   <COV_Increment>0.500</COV_Increment>
@@ -646,7 +646,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999204">
+ <key  number="3434204">
   <Object_Name>ANALOG VALUE4</Object_Name>
   <Description>ANALOG VALUE4</Description>
   <COV_Increment>0.500</COV_Increment>
@@ -659,7 +659,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999205">
+ <key  number="3434205">
   <Object_Name>ANALOG VALUE5</Object_Name>
   <Description>ANALOG VALUE5</Description>
   <COV_Increment>0.500</COV_Increment>
@@ -672,7 +672,7 @@
   <Time_Delay>0</Time_Delay>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999301">
+ <key  number="3434301">
   <Object_Name>BINARY_INPUT1</Object_Name>
   <Description>BINARY_INPUT 1</Description>
   <Device>
@@ -685,7 +685,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999302">
+ <key  number="3434302">
   <Object_Name>BINARY_INPUT2</Object_Name>
   <Description>BINARY_INPUT 2</Description>
   <Device>
@@ -698,7 +698,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999303">
+ <key  number="3434303">
   <Object_Name>BINARY_INPUT3</Object_Name>
   <Description>BINARY_INPUT 3</Description>
   <Device>
@@ -711,7 +711,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999304">
+ <key  number="3434304">
   <Object_Name>BINARY_INPUT4</Object_Name>
   <Description>BINARY_INPUT 4</Description>
   <Device>
@@ -724,7 +724,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999305">
+ <key  number="3434305">
   <Object_Name>BINARY_INPUT5</Object_Name>
   <Description>BINARY_INPUT 5</Description>
   <Device>
@@ -737,7 +737,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999306">
+ <key  number="3434306">
   <Object_Name>BINARY_INPUT6</Object_Name>
   <Description>BINARY_INPUT 6</Description>
   <Device>
@@ -750,7 +750,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999307">
+ <key  number="3434307">
   <Object_Name>BINARY_INPUT7</Object_Name>
   <Description>BINARY_INPUT 7</Description>
   <Device>
@@ -763,7 +763,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999308">
+ <key  number="3434308">
   <Object_Name>BINARY_INPUT8</Object_Name>
   <Description>BINARY_INPUT 8</Description>
   <Device>
@@ -776,7 +776,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999401">
+ <key  number="3434401">
   <Object_Name>BO31</Object_Name>
   <Description>BO31</Description>
   <Device_Type>normal</Device_Type>
@@ -788,7 +788,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999401">
+ <key  number="3434401">
   <Object_Name>BINARY_OUTPUT 1</Object_Name>
   <Description>BINARY_OUTPUT 1</Description>
   <Device_Type>normal</Device_Type>
@@ -800,7 +800,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999402">
+ <key  number="3434402">
   <Object_Name>BO32</Object_Name>
   <Description>BO32</Description>
   <Device_Type>normal</Device_Type>
@@ -812,7 +812,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999402">
+ <key  number="3434402">
   <Object_Name>BINARY_OUTPUT 2</Object_Name>
   <Description>BINARY_OUTPUT 2</Description>
   <Device_Type>normal</Device_Type>
@@ -824,7 +824,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999403">
+ <key  number="3434403">
   <Object_Name>BINARY_OUTPUT 3</Object_Name>
   <Description>BINARY_OUTPUT 3</Description>
   <Device_Type>normal</Device_Type>
@@ -836,7 +836,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999403">
+ <key  number="3434403">
   <Object_Name>BO33</Object_Name>
   <Description>BO33</Description>
   <Device_Type>normal</Device_Type>
@@ -848,7 +848,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999404">
+ <key  number="3434404">
   <Object_Name>BO34</Object_Name>
   <Description>BO34</Description>
   <Device_Type>normal</Device_Type>
@@ -860,7 +860,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999404">
+ <key  number="3434404">
   <Object_Name>BINARY_OUTPUT 4</Object_Name>
   <Description>BINARY_OUTPUT 4</Description>
   <Device_Type>normal</Device_Type>
@@ -872,7 +872,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999405">
+ <key  number="3434405">
   <Object_Name>BINARY_OUTPUT 5</Object_Name>
   <Description>BINARY_OUTPUT 5</Description>
   <Device_Type>normal</Device_Type>
@@ -884,7 +884,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999406">
+ <key  number="3434406">
   <Object_Name>BINARY_OUTPUT 6</Object_Name>
   <Description>BINARY_OUTPUT 6</Description>
   <Device_Type>normal</Device_Type>
@@ -896,7 +896,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999501">
+ <key  number="3434501">
   <Object_Name>BINARY_VALUE1</Object_Name>
   <Description>BINARY_VALUE1</Description>
   <Device_Type>normal</Device_Type>
@@ -908,7 +908,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999502">
+ <key  number="3434502">
   <Object_Name>BINARY_VALUE2</Object_Name>
   <Description>BINARY_VALUE2</Description>
   <Device_Type>normal</Device_Type>
@@ -920,7 +920,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999503">
+ <key  number="3434503">
   <Object_Name>BINARY_VALUE3</Object_Name>
   <Description>BINARY_VALUE3</Description>
   <Device_Type>normal</Device_Type>
@@ -932,7 +932,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999504">
+ <key  number="3434504">
   <Object_Name>BINARY_VALUE4</Object_Name>
   <Description>BINARY_VALUE4</Description>
   <Device_Type>normal</Device_Type>
@@ -944,7 +944,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999505">
+ <key  number="3434505">
   <Object_Name>BINARY_VALUE5</Object_Name>
   <Description>BINARY_VALUE5</Description>
   <Device_Type>normal</Device_Type>
@@ -956,7 +956,7 @@
   <Alarm_Value>0</Alarm_Value>
   <Notification_Class>1</Notification_Class>
  </key>
- <key  number="9999801">
+ <key  number="3434801">
   <Object_Name>i1024Controller</Object_Name>
  </key>
 </root>

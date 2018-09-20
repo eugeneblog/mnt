@@ -28,7 +28,6 @@ Ext.define("program.view.window.RenameWindow", {
         var me = this;
 
         var sDevName = me.text.substring(0, me.text.indexOf('.'));//文件名称
-        console.log(sDevName);
         me.title = sDevName;     
         // console.log(me.title);
         me.sDevName = sDevName;
@@ -43,14 +42,12 @@ Ext.define("program.view.window.RenameWindow", {
 
             success: function (response, opts) {
                 var xml = response.responseXML;
-                console.log(xml);
                 if (!xml) {          //如果非xml就抛出错误
                     Ext.Msg.alert("Error", "invalid data !");
                 }
 
 
                 var domKeys = xml.querySelectorAll("key");
-                console.log(domKeys);
             
                 var keys = [];
                 // Window.ModelKeys.insKey = Window.ModelKeys.insKey || [];
@@ -82,7 +79,6 @@ Ext.define("program.view.window.RenameWindow", {
                         // console.log(domKeys[i].getAttribute('number'));
                     
                 }
-                console.log(window);
                 keys.sort(function (a, b) {     //给所有key排序
                     var akey = a.getAttribute("number")
                     var bkey = b.getAttribute("number")
@@ -94,7 +90,7 @@ Ext.define("program.view.window.RenameWindow", {
                     var keyType;
                     (keys[i].getAttribute('number').substr(5,1) > 1) && (keys[i].getAttribute('number').substr(4,1) == 3) ? keyType = '4' : keyType = keys[i].getAttribute("number").substr(4, 1); 
                     
-                    console.log(keyType);
+                    
                     if (keyType == '3' || keyType == '4') {   //如果keyType是3 或 4 截取前四位
                         var devName = keys[i].getAttribute('number').substr(0, 4)
                         me.devName = devName;
@@ -145,10 +141,8 @@ Ext.define("program.view.window.RenameWindow", {
                      bodyPadding: 10,
                      items: fieldsItems
                      })*/
-                     console.log(me);
                     var formPanel = me.createDevForm({Object_Name: Object_Name, key: keys[i].getAttribute('number')});//创建formPanel
                     me.id = 'myXmlDevForm';
-                     console.log(formPanel);
                     me.items.push(formPanel);
                     formPanel.getForm().setValues(formData)
                 }
@@ -174,10 +168,8 @@ Ext.define("program.view.window.RenameWindow", {
         parseInt(data.key.substr(4,1)) == 3 ? keyType = 4 : keyType = data.key.substr(4,1);
         // console.log(keyType);
         var fields = me["type" + keyType];  //在当前对象找到相对应类型
-        console.log(fields);
         var fieldsItems = [];
         if (!fields) {     
-            console.log("fields=" + fields)
             return;
         }
 
@@ -245,7 +237,6 @@ Ext.define("program.view.window.RenameWindow", {
 
             }
             else if (fieldName == 'Alarm_Value') {
-                console.log("Alarm_Value")
                 textfield = {
                     fieldLabel: fieldName,
                     name: fieldName,
@@ -310,7 +301,6 @@ Ext.define("program.view.window.RenameWindow", {
             }
             fieldsItems.push(textfield);   //判断处理后追加到新数组
         }
-        console.log(fieldsItems);
 
         var panel = Ext.create("Ext.form.Panel", {
             //title: data.Object_name,
@@ -343,11 +333,9 @@ Ext.define("program.view.window.RenameWindow", {
                 var deviceType = me.query("[name=Device_Type]")[0];
                 if (!!deviceType) {
                     if (deviceType.value == "BI" & type == "0") {
-                        console.log(deviceType.value)
                         return;
                     }
                     if (deviceType.value == "hide") {
-                        console.log(deviceType.value)
                         return;
                     }
                 }
@@ -374,7 +362,6 @@ Ext.define("program.view.window.RenameWindow", {
 
             }
         })
-        console.log(panel);
         return panel;
     },
     createDevForm: function (data) {
@@ -392,7 +379,6 @@ Ext.define("program.view.window.RenameWindow", {
         // console.log(fields);
         var fieldsItems = [];
         if (!fields) {
-            console.log("fields=" + fields)
             return;
         }
 
@@ -460,7 +446,6 @@ Ext.define("program.view.window.RenameWindow", {
 
             }
             else if (fieldName == 'Alarm_Value') {
-                console.log("Alarm_Value")
                 textfield = {
                     fieldLabel: fieldName,
                     name: fieldName,
@@ -525,7 +510,6 @@ Ext.define("program.view.window.RenameWindow", {
             }
             fieldsItems.push(textfield);
         }
-        console.log(data)
 
         var panel = Ext.create("Ext.form.Panel", {
             //title: data.Object_name,
@@ -558,11 +542,9 @@ Ext.define("program.view.window.RenameWindow", {
                 var deviceType = me.query("[name=Device_Type]")[0];
                 if (!!deviceType) {
                     if (deviceType.value == "BI" & type == "0") {
-                        console.log(deviceType.value)
                         return;
                     }
                     if (deviceType.value == "hide") {
-                        console.log(deviceType.value)
                         return;
                     }
                 }
@@ -589,7 +571,6 @@ Ext.define("program.view.window.RenameWindow", {
 
             }
         });
-        console.log(panel);
         return panel;
     },
 
@@ -597,12 +578,10 @@ Ext.define("program.view.window.RenameWindow", {
         var me = this;
         me.title = me.sDevName + " rename";
         var sDevName = me.sDevName;
-        console.log(sDevName);
         me.items = []
 
         myAjax("resources/test1.php?par=getKeys&devname=" + sDevName, function (response) {
             var datas = Ext.decode(response.responseText)
-            console.log(datas)
             //var fields = me.fields;
             datas.sort(function (a, b) {
                 var akey = a['key']
@@ -619,7 +598,6 @@ Ext.define("program.view.window.RenameWindow", {
             for (var i = 0; i < datas.length; i++) {
                 
                 var gridpanel = me.createDevForm(datas[i]);
-                console.log(gridpanel)
                 if (gridpanel != undefined) {
                     me.items.push(gridpanel);
                     gridpanel.getForm().loadRecord(store.getAt(i));
@@ -691,7 +669,6 @@ Ext.define("program.view.window.RenameWindow", {
             }
 
         }
-        console.log(data)
         return data;
     },
 
@@ -782,7 +759,6 @@ Ext.define("program.view.window.RenameWindow", {
 
         var items = me.items.items;
 
-        console.log(key)
         var inertIndex = 0;
 
         for (var i = 0; i < items.length; i++) {
@@ -790,14 +766,12 @@ Ext.define("program.view.window.RenameWindow", {
             if (key < items[i].key) {
                 inertIndex = i;
 
-                console.log(items[i].key, "----", i)
 
                 break;
             }
         }
 
         var form = me.createDevForm({key: key, Object_Name: Object_Name});
-        console.log(form);
         var type = key.substr(4, 1);
         var values = types["type" + type];
 
@@ -813,7 +787,6 @@ Ext.define("program.view.window.RenameWindow", {
     },
     deleteDevForm: function (key) {
 
-        console.log(key)
         var me = this;
         var form = me.query('[key=' + key + ']')[0];
         me.remove(form);
@@ -849,7 +822,6 @@ Ext.define("program.view.window.RenameWindow", {
         var fields = ["AI_count", "AO_count", "AV_count", "BI_count", "BO_count", "BV_count", "SCHEDULE_count"].concat(me.type0).concat(me.type1).concat(me.type2).concat(me.type3).concat(me.type4).concat(me.type5).concat(me.type6);
         me.fields = fields;
         if (me.text) {
-            console.log(me.text);
             me.xmlSources()
             me.xmlsources = true
         } else if (me.sDevName) {
@@ -868,7 +840,7 @@ Ext.define("program.view.window.RenameWindow", {
     getXmlStr: function () {
         var me = this;
         var items = me.items.items;       //获取所有的key对应的panel对象
-        console.log(items);
+       
         var root = document.createElement("root");
         var ai = document.createElement("AI_count");
         var ao = document.createElement("AO_count");
@@ -895,13 +867,10 @@ Ext.define("program.view.window.RenameWindow", {
 
         for (var i = 1; i < items.length; i++) {   //遍历items
             //console.log(items[i]);
-            var form = items[i].getForm();    //获取panel对象
-            console.log(form);                  
+            var form = items[i].getForm();    //获取panel对象   
             var res = form.getFieldValues();  //获取panel对象所有的值
-            console.log(res);
             var key = document.createElement("key");  //创建key
             var keytype = items[i].key.substr(4, 1);  //获取所有panel的key属性第五位
-            console.log(keytype);
             if (keytype == "0") {  
                 aicount++
             }
@@ -925,10 +894,10 @@ Ext.define("program.view.window.RenameWindow", {
             }
             if(me.deviceName && items[i].key.substr(-2,1)<=1){   //如果前四位有值和panel的key属性倒数第二位小于等于1条件成立则往下执行
                 var newKey = me.deviceName + (items[i].key.substr(4, 7))  //获取修改好的keynumber前四位+原本的后三位
-                console.log(newKey);
+               
                 key.setAttribute("number", newKey);
             } else {      //key倒数第二位大于1的情况
-                console.log('aa')
+              
                 var modelKeys = '1001';
                 key.setAttribute("number", items[i].key);
             }
@@ -1003,7 +972,6 @@ Ext.define("program.view.window.RenameWindow", {
         xmlstr = formatXml(xmlstr);
         
 
-        console.log(xmlstr);
         var filename = "devxml/" + filename + ".xml"
         var datas = {
             rw: "w",
@@ -1027,7 +995,6 @@ Ext.define("program.view.window.RenameWindow", {
             myAjax(null, function (response) {
                 try {
                     var resJson = Ext.decode(response.responseText);
-                    console.log(resJson);
                     if (resJson.success) {
                         delayToast("Massage", resJson.info)
                     } else {
@@ -1261,7 +1228,6 @@ Ext.define("program.view.window.RenameWindow", {
 
 function devsSplitType(datas) {
 
-    console.log(datas)
     var AI = {
         name: 'AI',
         value: 0,
@@ -1383,7 +1349,6 @@ function devsSplitType(datas) {
     arr.push(BO)
     arr.push(BV)
     arr.push(SCHEDULE)
-    console.log(arr)
     return arr;
 
 }

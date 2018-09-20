@@ -49,15 +49,10 @@ if ($rw == 'r') {
 	        }
 	        copy($fn,$path.$fn1[0].".lcg");
 	        echo $path.$fn1[0].".lcg";
-	    	echo 'false';
 	    }
      }else{
         echo $fn;
      }
-    //$fp = fopen($fn, 'w') or die("Unable to open file!");
-    //fwrite($fp, $content);
-    //fclose($fp);
 }
-//chmod($fn,0777);
 
 ?>

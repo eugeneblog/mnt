@@ -51,8 +51,6 @@ Ext.define('program.view.window.RenameWindowController', {
 
             items.push(fieldcontainer);
         }
-        console.log(items);
-        console.log("====================================================================");
         items.push(
             {
                 xtype: "fieldcontainer",
@@ -82,6 +80,19 @@ Ext.define('program.view.window.RenameWindowController', {
                             var EXDevice = Ext.getCmp('EXModelNum');
                             var oldDevice = container.getComponent("deviceInstance");
                             var newDevice = container.getComponent("replaceDevice");
+                            var main = Ext.ComponentQuery.query('renamewindow')[0]; //获取主容器
+                            var mainPanel = main.query('panel') //获取主容器下所有panel
+
+                            function logArrayElements(element, index, array){ // 遍历所有panel，替换title
+                                if(index){
+                                    var oldTitle = element.getTitle();
+                                    element.key = newDevice.getValue() + element.key.substr(4);
+                                    
+                                    element.setTitle(oldTitle.replace(/<b.*?>(.*?)<\/b>/ig, 'dev.' + newDevice.getValue()+ ' '));
+                                }
+                            }
+                            mainPanel.forEach(logArrayElements)
+                            
                             oldDevice.setValue(newDevice.getValue());
                             EXDevice.setValue(newDevice.getValue());
                             me.devName = newDevice.getValue();
@@ -566,8 +577,6 @@ Ext.define('program.view.window.RenameWindowController', {
             var form = Ext.getCmp("loadRenameWin");
             var keys = [];
             var pattern = /\d/;
-            
-            console.log(me);
             //遍历所有items，加上禁用
             for(var i = 1,len = allInput.length;i < len;i++){
                 // allInput[i].setDisabled(true);
@@ -611,10 +620,9 @@ Ext.define('program.view.window.RenameWindowController', {
                                     domKeys[i].querySelector('Object_Name').innerHTML = Object_Name_str.replace(pattern,xmlType);
                                     var Object_Name = domKeys[i].querySelector("Object_Name").innerHTML;
 
-                                    console.log(Object_Name);
                                     var keyType;
                                     parseInt(domKeys[i].getAttribute("number").substr(4, 1)) == 3 ? keyType = 4 : keyType = domKeys[i].getAttribute("number").substr(4, 1);
-                                    console.log(keyType);
+                                   
                                     if (keyType == '3' || keyType == '4') {   //如果keyType是3 或 4 截取前四位
                                         var devName = domKeys[i].getAttribute('number').substr(0, 4)
                                         me.devName = devName;
@@ -645,7 +653,6 @@ Ext.define('program.view.window.RenameWindowController', {
                                     formPanel.getForm().setValues(formData);   //调用Ext内置的方法获取form并且设置值
                                 }
                                 me.updateLayout();
-                                console.log(me);
                                 Ext.MessageBox.alert('Success','Successfully adding EX-model'+xmlType);
                             },
                             failure:function(response,opts){
@@ -663,27 +670,14 @@ Ext.define('program.view.window.RenameWindowController', {
         };
         //=========================================================================================
         function delModel(button){
-            // var fileName = button.up('form').down('#select').getValue(); //获取select的value
-            // console.log(button.up('form'));
             var xmlType =  button.up('form').down('#selectNum').getValue(); //获取selectNum 的vlaue
             var allInput = Ext.getCmp('modelType').items.items;
             for(var i = 1,len = allInput.length;i < len;i++){
                 if(parseInt(allInput[i].value) == xmlType){
-                    console.log(allInput[i]);
-                    console.log(xmlType);
                     if(allInput[i].disabled == false){
                         allInput[i].setDisabled(true);
                         //根据属性值删除组件
                         var keys = me.items.items;
-                        // for(var i = 1,len = keys.length;i<len;i++){   //遍历所有panel对象，从1开始，0是默认的default panel
-                        //     if(keys[i].key && keys[i].key.substr(5,1) == xmlType){
-                        //         me.remove(keys[i],true);
-                        //         i--;
-                        //         console.log(keys[i].key);
-                        //         console.log(keys);
-                        //     }
-                            
-                        // }
                         var i = keys.length;
                         while(i--){
                             console.log(i+'='+keys[i]);
@@ -691,7 +685,6 @@ Ext.define('program.view.window.RenameWindowController', {
                                 me.remove(keys[i],true);
                             }
                         }
-                        console.log(keys.length);
                         Ext.MessageBox.alert('Success','Deleted successfully EX-model '+xmlType);
                     }else{
                         Ext.MessageBox.alert('Waring','This module does not exist');

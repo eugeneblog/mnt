@@ -24,14 +24,13 @@ Ext.define('program.view.window.Backup', {
             xtype: "backupgrid",
             folder:"devsinfo",
             margin:"0 5 0 0"
-
         }, {
             xtype: "backupgrid",
             folder:"devxml",
             margin:"0 0 0 5"
         }, {
             xtype: "backupgrid",
-            folder:"../../../../",
+            folder:"../",
             margin:"0 0 0 5"
         }
     ]
