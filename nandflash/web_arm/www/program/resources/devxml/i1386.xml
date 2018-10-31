@@ -3,7 +3,7 @@
 <AI_count>6</AI_count>
 <AO_count>4</AO_count>
 <AV_count>5</AV_count>
-<BI_count>8</BI_count>
+<BI_count>16</BI_count>
 <BO_count>6</BO_count>
 <BV_count>5</BV_count>
  <SCHEDULE_count>1</SCHEDULE_count>
@@ -17,7 +17,7 @@
   <Max_Pres_Value>100.000</Max_Pres_Value>
   <COV_Increment>1.000</COV_Increment>
   <High_Limit>100.000</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -35,7 +35,7 @@
   <Max_Pres_Value>100.000</Max_Pres_Value>
   <COV_Increment>1.000</COV_Increment>
   <High_Limit>100.000</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -53,7 +53,7 @@
   <Max_Pres_Value>100.000</Max_Pres_Value>
   <COV_Increment>1.000</COV_Increment>
   <High_Limit>100.000</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -71,7 +71,7 @@
   <Max_Pres_Value>100.000</Max_Pres_Value>
   <COV_Increment>1.000</COV_Increment>
   <High_Limit>100.000</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -89,7 +89,7 @@
   <Max_Pres_Value>100.000</Max_Pres_Value>
   <COV_Increment>1.000</COV_Increment>
   <High_Limit>100.000</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -107,7 +107,7 @@
   <Max_Pres_Value>100.000</Max_Pres_Value>
   <COV_Increment>1.000</COV_Increment>
   <High_Limit>100.000</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -122,7 +122,7 @@
   <Device_Type>0-10=0-100</Device_Type>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -137,7 +137,7 @@
   <Device_Type>0-10=0-100</Device_Type>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -152,7 +152,7 @@
   <Device_Type>0-10=0-100</Device_Type>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -167,7 +167,7 @@
   <Device_Type>0-10=0-100</Device_Type>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -180,7 +180,7 @@
   <Description>ANALOG VALUE 1</Description>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -193,7 +193,7 @@
   <Description>ANALOG VALUE 2</Description>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -206,7 +206,7 @@
   <Description>ANALOG VALUE3</Description>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -219,7 +219,7 @@
   <Description>ANALOG VALUE4</Description>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -232,7 +232,7 @@
   <Description>ANALOG VALUE5</Description>
   <COV_Increment>0.500</COV_Increment>
   <High_Limit>100</High_Limit>
-  <Low_Limit>0.000</Low_Limit>
+  <Low_Limit>-50.000</Low_Limit>
   <Deadband>0.000</Deadband>
   <Limit_Enable>0</Limit_Enable>
   <Event_Enable>0</Event_Enable>
@@ -565,6 +565,6 @@
   <Notification_Class>1</Notification_Class>
  </key>
  <key  number="1001801">
-  <Object_Name>i1024Controller</Object_Name>
+  <Object_Name>i1386Controller</Object_Name>
  </key>
 </root>

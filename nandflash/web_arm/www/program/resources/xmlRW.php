@@ -3,6 +3,17 @@ $fn = $_POST['fileName'];
 $rw = $_POST['rw'];
 
 $ip = $_SERVER["SERVER_ADDR"];
+
+
+function file2dir($sourcefile, $dir,$filename){  //copy 文件
+     if( !file_exists ($sourcefile) ) {
+        return false;
+     }
+     //$filename = basename($sourcefile);
+     return copy ($sourcefile, $dir.''.$filename);
+
+}
+
 if ($ip != "127.0.0.1") {
     if (file_exists($fn)) {
         //chmod($fn, 0777);
@@ -32,26 +43,28 @@ if ($rw == 'r') {
     $fname=explode("/",$fn);
     $i=count($fname)-1;
     $fn1=explode(".",$fname[$i]);
-    // print_r($fn1);
     $isDev = strpos($fn, 'devxml');
-    // echo $fn.'--';
-    // echo '------------------------';
     if(count($fn1)>1){  //判断是否在devsinfo路径下
     	if($isDev===0 || $isDev){
     		echo 'true';
     		return;
 	    }else{
-	    	$path="";
+            $path="";
+            $lgcPath = "./lgc/";
 	        foreach($fname as $k=>$v){
 	          if($k<$i){
 	          $path.=$v."/";
 	          }
 	        }
-	        copy($fn,$path.$fn1[0].".lcg");
+            copy($fn,$path.$fn1[0].".lcg");
 	        echo $path.$fn1[0].".lcg";
 	    }
      }else{
-        echo $fn;
+        if($fn1[0] === 'undefined'){
+            return;
+        }
+        file2dir("../1000", "./lgc/", $fn1[0].".lcg");
+        echo 'success save as 1000.lcg in ./lgc/1000.lcg';
      }
 }
 

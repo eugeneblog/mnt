@@ -114,7 +114,6 @@ Ext.define('program.view.tree.DevTreeController', {
                                                 Ext.Msg.alert('Info', 'Plase select file name.');
                                                 return;
                                             }
-                                            console.log('-----------加载异步请求-----------')
                                             Ext.Ajax.request({
                                                 url:"resources/inspect.php",
                                                 method:"GET",
@@ -133,16 +132,12 @@ Ext.define('program.view.tree.DevTreeController', {
                                                                 xmlModel[i].setDisabled(true);
                                                             }
                                                         }
-                                                        console.log(xmlModel);
-                                                        console.log(result);
                                                         // console.log(Ext.getCmp('loadRenameWin'));
                                                     }
                                                     // result.nodename
                                                     // console.log(result.getElementsByTagName('key'));
                                                 }
                                             })
-                                            console.log('检查xml是否有model');
-                                            console.log(text)
                                             Ext.create('program.view.window.RenameWindow', {
                                                 sources: "xml",
                                                 text: text,

@@ -4,13 +4,9 @@ Ext.define('program.view.window.RenameWindowController', {
     types: ['AI', 'AO', 'AV', 'BI', 'BO', 'BV', 'SCHEDULE'],
 
     boxready: function () {
-        var infoExFile = null;
         var me = this.view;             //当前的视图对象  
-        console.log(me);
-        var filePath = me.text;
-        var modelkey = window.ModelKeys = {};
-        var insertKey = modelkey.insKey = [];
         var types = ['AI', 'AO', 'AV', 'BI', 'BO', 'BV', 'SCHEDULE'];
+        var modelType = ['EX-0804','EX-4240','EX-2622'];
         var items = [];   //定义一个数组，用循环创建子组件
         for (var i = 0; i < types.length; i++) {   //遍历types,根据types的长度创建相对应的视图
             var fieldcontainer = {
@@ -230,7 +226,7 @@ Ext.define('program.view.window.RenameWindowController', {
                             flex: 5,
                             // allowBlank: false,
                             fieldLabel: 'select',
-                            store: ['EX-0804','EX-4240'],
+                            store: modelType,
                             editable: false,
                             // autoSelect: true,
                             itemId: "select",

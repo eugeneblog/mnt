@@ -84,7 +84,7 @@ function arrIsHaveStr($arr, $str)
 
 //echo time()-$start111
 if ($par == "moveXml") {
-    $filePath = "/Applications/XAMPP/xamppfiles/htdocs/mnt/nandflash/";
+    $filePath = "/mnt/nandflash/";
 
     if (file_exists($filePath)) {
         $filename = $_REQUEST['filename'];
@@ -673,7 +673,7 @@ if ($par == "getDevInfoFileNames") {
     echo json_encode($newArry);
 }
 if ($par == "getDevFileNames") {
-    $directory = "/Applications/XAMPP/xamppfiles/htdocs/mnt/nandflash/";
+    $directory = "/mnt/nandflash/";
     $newArry = Array();
     $scanned_directory = array_diff(scandir($directory), array('..', '.'));
     foreach ($scanned_directory as $key => $value) {

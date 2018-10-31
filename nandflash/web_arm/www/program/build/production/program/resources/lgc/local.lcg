@@ -58,24 +58,6 @@
    </slots>
   </master_node>
   <master_node  number="7">
-   <type>52</type>
-   <slots  number="1">
-    <default>0</default>
-   </slots>
-   <slots  number="2">
-    <default>0</default>
-   </slots>
-  </master_node>
-  <master_node  number="8">
-   <type>51</type>
-   <slots  number="1">
-    <default>0</default>
-   </slots>
-   <slots  number="2">
-    <default>0</default>
-   </slots>
-  </master_node>
-  <master_node  number="9">
    <type>53</type>
    <slots  number="1">
     <default>0</default>
@@ -84,8 +66,8 @@
     <default>0</default>
    </slots>
   </master_node>
-  <master_node  number="10">
-   <type>62</type>
+  <master_node  number="8">
+   <type>52</type>
    <slots  number="1">
     <default>0</default>
    </slots>
@@ -93,7 +75,7 @@
     <default>0</default>
    </slots>
   </master_node>
-  <master_node  number="11">
+  <master_node  number="9">
    <type>51</type>
    <slots  number="1">
     <default>0</default>
@@ -102,8 +84,26 @@
     <default>0</default>
    </slots>
   </master_node>
+  <master_node  number="10">
+   <type>53</type>
+   <slots  number="1">
+    <default>0</default>
+   </slots>
+   <slots  number="2">
+    <default>0</default>
+   </slots>
+  </master_node>
+  <master_node  number="11">
+   <type>62</type>
+   <slots  number="1">
+    <default>0</default>
+   </slots>
+   <slots  number="2">
+    <default>0</default>
+   </slots>
+  </master_node>
   <master_node  number="12">
-   <type>52</type>
+   <type>51</type>
    <slots  number="1">
     <default>0</default>
    </slots>
@@ -121,6 +121,33 @@
    </slots>
   </master_node>
   <master_node  number="14">
+   <type>52</type>
+   <slots  number="1">
+    <default>0</default>
+   </slots>
+   <slots  number="2">
+    <default>0</default>
+   </slots>
+  </master_node>
+  <master_node  number="15">
+   <type>51</type>
+   <slots  number="1">
+    <default>0</default>
+   </slots>
+   <slots  number="2">
+    <default>0</default>
+   </slots>
+  </master_node>
+  <master_node  number="16">
+   <type>51</type>
+   <slots  number="1">
+    <default>0</default>
+   </slots>
+   <slots  number="2">
+    <default>0</default>
+   </slots>
+  </master_node>
+  <master_node  number="17">
    <type>51</type>
    <slots  number="1">
     <default>0</default>
