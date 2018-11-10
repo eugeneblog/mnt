@@ -44,8 +44,9 @@ if ($rw == 'r') {
     $i=count($fname)-1;
     $fn1=explode(".",$fname[$i]);
     $isDev = strpos($fn, 'devxml');
+    $isDdc = strpos($fn, 'ddc');
     if(count($fn1)>1){  //判断是否在devsinfo路径下
-    	if($isDev===0 || $isDev){
+    	if(($isDev===0 || $isDev) || ($isDdc === 0 || $isDdc)){
     		echo 'true';
     		return;
 	    }else{
@@ -56,15 +57,15 @@ if ($rw == 'r') {
 	          $path.=$v."/";
 	          }
 	        }
-            copy($fn,$path.$fn1[0].".lcg");
-	        echo $path.$fn1[0].".lcg";
+            copy($fn,$path.$fn1[0].".lgc");
+	        echo $path.$fn1[0].".lgc";
 	    }
      }else{
         if($fn1[0] === 'undefined'){
             return;
         }
-        file2dir("../1000", "./lgc/", $fn1[0].".lcg");
-        echo 'success save as 1000.lcg in ./lgc/1000.lcg';
+        file2dir("../1000", "./lgc/", $fn1[0].".lgc");
+        echo 'success save as 1000.lcg in ./lgc/1000.lgc';
      }
 }
 

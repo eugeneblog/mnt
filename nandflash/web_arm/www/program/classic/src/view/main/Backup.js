@@ -2,7 +2,7 @@ Ext.define('program.view.window.Backup', {
     extend: 'Ext.window.Window',
     autoShow: true,
     frame: true,
-    width: 1000,
+    width: 1200,
     height: 600,
     title: "Backup •••",
     layout: "hbox",
@@ -23,15 +23,18 @@ Ext.define('program.view.window.Backup', {
         {
             xtype: "backupgrid",
             folder:"devsinfo",
-            margin:"0 5 0 0"
+            margin:"0 5 0 0",
+            title: 'Program Backup'
         }, {
             xtype: "backupgrid",
-            folder:"devxml",
-            margin:"0 0 0 5"
+            folder:"ddc",
+            margin:"0 0 0 5",
+            title: 'Config File'
         }, {
             xtype: "backupgrid",
             folder:"lgc",
-            margin:"0 0 0 5"
+            margin:"0 0 0 5",
+            title: 'Program File'
         }
     ]
 });

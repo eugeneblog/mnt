@@ -5,9 +5,17 @@ Ext.define('program.view.window.RenameWindowController', {
 
     boxready: function () {
         var me = this.view;             //当前的视图对象  
+        // me.loadingMsg.hide();
+        me.loadingPanel.hide();
         var types = ['AI', 'AO', 'AV', 'BI', 'BO', 'BV', 'SCHEDULE'];
         var modelType = ['EX-0804','EX-4240','EX-2622'];
         var items = [];   //定义一个数组，用循环创建子组件
+        var renameButton = Ext.getCmp('renameButtonOk')
+        if(me.isUseOk){
+            renameButton.hide();
+        } else {
+            renameButton.show();
+        }
         for (var i = 0; i < types.length; i++) {   //遍历types,根据types的长度创建相对应的视图
             var fieldcontainer = {
                 xtype: "fieldcontainer",

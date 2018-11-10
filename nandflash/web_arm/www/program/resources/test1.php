@@ -517,6 +517,13 @@ if ($par == "getDevxmls"){
     echo json_encode($arr);
 }
 
+if ($par == "getddcFiles") {
+    $dir = "ddc";
+    $scanned_directory = array_diff(scandir($dir), array('..', '.'));
+    $arr = array_values($scanned_directory);
+    echo json_encode($arr);
+}
+
 function isBIBOBV($nodeName)
 {
     $four = substr($nodeName, 4, 1);

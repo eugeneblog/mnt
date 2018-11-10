@@ -1,7 +1,8 @@
 <?php
     header("Content-type:text/xml;charset=utf-8"); 
     $file_name = $_GET['file_name'];
-    $filePath = 'devxml/'.$file_name;
+    $xml_file = $_GET['xmlFile'];
+    $filePath = $xml_file.'/'.$file_name;
 
     error_reporting(E_ALL^E_NOTICE^E_WARNING);
     // 使用dom查找

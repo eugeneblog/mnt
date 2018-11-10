@@ -7,7 +7,7 @@
     $filePath = './model/'.$file_name;   //模版文件路径
     // $myfile = fopen('./model/'.$file_name,'r');   //使用fopen方法打开xml文件，返回布尔值
     // $filsText = fread($myfile,filesize("./model/".$file_name));    //使用fread读取文件
-    $mainPath = './devxml/'.$main_path;  //获取主xml文件路径
+    $mainPath = './ddc/'.$main_path;  //获取主xml文件路径
   
 // --------------------------------------模版文件修改------------------------------------------
     $dom = new DOMDocument("1.0","UTF-8");

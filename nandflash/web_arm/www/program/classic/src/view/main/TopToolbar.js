@@ -177,7 +177,7 @@ Ext.define("program.view.main.toolbar.TopToolbar", {
                         }, {
                             text: "About",
                             handler: function () {
-                                Ext.Msg.alert('Version', 'Smart 3.2.2 ');
+                                Ext.Msg.alert('Version', 'Smart 3.2.3 ');
                             }
                         }
                     ]

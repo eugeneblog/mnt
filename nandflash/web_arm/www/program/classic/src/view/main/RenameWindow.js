@@ -26,6 +26,7 @@ Ext.define("program.view.window.RenameWindow", {
     xmlSources: function () {   //xml资源
 
         var me = this;
+        var __me = this;
 
         var sDevName = me.text.substring(0, me.text.indexOf('.'));//文件名称
         me.title = sDevName;     
@@ -38,7 +39,7 @@ Ext.define("program.view.window.RenameWindow", {
         Ext.Ajax.request({
 
             async: false,    
-            url: "resources/devxml/" + me.text,    //发请求获取xml文件
+            url: "resources/"+me.xmlFile+"/" + me.text,    //发请求获取xml文件
 
             success: function (response, opts) {
                 var xml = response.responseXML;
@@ -972,6 +973,7 @@ Ext.define("program.view.window.RenameWindow", {
         xmlstr = formatXml(xmlstr);
         
 
+        // var filename = me.xmlFile+"/" + filename + ".xml"
         var filename = "devxml/" + filename + ".xml"
         var datas = {
             rw: "w",
@@ -1010,9 +1012,9 @@ Ext.define("program.view.window.RenameWindow", {
             })
         }
 
-        setTimeout(function () {
-            me.close()
-        }, 1000)
+        // setTimeout(function () {
+        //     me.close()
+        // }, 1000)
     },
     insertKey:function(){
         var fileName = button.up('form').down('#select').getValue(); //获取select的value
@@ -1046,8 +1048,8 @@ Ext.define("program.view.window.RenameWindow", {
         }
     },
     relaodRenameWindow: function () {
-        var me = this;
 
+        console.log(this)
         setTimeout(function () {
             if (me.sources == "db") {
                 Ext.create('program.view.window.RenameWindow', {
@@ -1135,20 +1137,19 @@ Ext.define("program.view.window.RenameWindow", {
                     ],
                     buttons: [
                         {
-                            text: 'Ok', handler: function () {
-                            var text = win.down("combobox").getValue();
-                            if (text == null) {
-                                Ext.Msg.alert('Info', 'Plase select file name.');
-                                return;
+                            text: 'Ok',
+                            handler: function () {
+                                var text = win.down("combobox").getValue();
+                                if (text == null) {
+                                    Ext.Msg.alert('Info', 'Plase select file name.');
+                                    return;
+                                }
+                                var field = win.getComponent("field").getValue();
+                                var oldValue = win.getComponent("oldvalue").getValue();
+                                var newValue = win.getComponent("newvalue").getValue();
+                                me.replaceFieldValue(field, oldValue, newValue);
+                                win.close();
                             }
-                            var field = win.getComponent("field").getValue();
-                            var oldValue = win.getComponent("oldvalue").getValue();
-                            var newValue = win.getComponent("newvalue").getValue();
-                            me.replaceFieldValue(field, oldValue, newValue)
-
-
-                            win.close();
-                        }
                         },
                         {
                             text: 'Close', handler: function () {
@@ -1183,7 +1184,9 @@ Ext.define("program.view.window.RenameWindow", {
         },
         "->",
         {
-            text: "Ok", handler: function () {
+            text: "Ok", 
+            id: "renameButtonOk",
+            handler: function () {
             var me = this.up("window");
             // console.log(me.sDevName)
             // console.log(me.deviceName)

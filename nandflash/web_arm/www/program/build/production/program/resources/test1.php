@@ -26,7 +26,7 @@ if ($par == "devXmlInit") {
     $devsAllArr = getDevsAll($arList);
     $start_time = time();
     for ($i = 0; $i < sizeof($devsAllArr); $i++) {
-        $filename = "devxml/" . $devsAllArr[$i] . ".xml";
+        $filename = "ddc/" . $devsAllArr[$i] . ".xml";
         if (file_exists($filename)) {
             devXmlInit($filename, $redis);
         }
@@ -511,7 +511,7 @@ if ($par == "schedule") {
 }
 
 if ($par == "getDevxmls"){
-    $dir = "devxml";
+    $dir = "ddc";
     $scanned_directory = array_diff(scandir($dir), array('..', '.'));
     $arr = array_values($scanned_directory);
     echo json_encode($arr);

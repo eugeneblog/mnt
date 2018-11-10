@@ -63,7 +63,7 @@ Ext.define('program.view.tree.DevTreeController', {
                     text: "DB ••• ",
                     menu: [
                         {
-                            text: "load",
+                            text: "load model",
                             bind: {
                                 hidden: "{linkDataBase}"
                             },
@@ -73,7 +73,112 @@ Ext.define('program.view.tree.DevTreeController', {
                                     myAjax("", function (response) {
                                         try {
                                             store = Ext.decode(response.responseText);
-                                            console.log(response);
+                                            // console.log(response);
+                                        } catch (e) {
+                                        }
+                                    }, {
+                                        par: "getddcFiles",
+                                    })
+                                    return store;
+                                }
+
+                                var win = Ext.create('Ext.window.Window', {
+                                    title: "load",
+                                    frame: true,
+                                    width: 325,
+                                    bodyPadding: 10,
+                                    autoShow: true,
+                                    defaultType: 'textfield',
+                                    defaults: {
+                                        anchor: '100%'
+                                    },
+                                    items: [
+                                        {
+                                            margin: 10,
+                                            xtype: "combobox",
+                                            allowBlank: false,
+                                            fieldLabel: 'select file name',
+                                            store: getDevXmlStore(),
+                                            editable: false,
+                                            queryMode: 'local',
+                                            displayField: 'name',
+                                            valueField: 'name',
+                                            autoSelect: false
+                                        }
+                                    ],
+                                    buttons: [
+                                        {
+                                            text: 'Ok', handler: function () {
+                                            var text = win.down("combobox").getValue();
+                                            if (text == null) {
+                                                Ext.Msg.alert('Info', 'Plase select file name.');
+                                                return;
+                                            }
+                                            __this.loadingMsg = Ext.Msg.show({
+                                                modal:false,
+                                                title:"提示",
+                                                msg:"正在加载数据...",
+                                                closable:true,
+                                                width:300,
+                                                wait:true
+                                            })
+                                            Ext.Ajax.request({
+                                                url:"resources/inspect.php",
+                                                method:"GET",
+                                                params: { file_name: text, xmlFile: "ddc"},
+                                                success:function(response,opts){
+                                                    var result = response.responseText;
+                                                    // var pattern = /(\s\n)?<\/?xml>(\s\n)?/g;
+                                                    if(result){
+                                                        //获取input组件
+                                                        var xmlModel = Ext.getCmp('modelType').items.items;
+                                                        var pattern = new RegExp('['+result+']');  //匹配模式
+                                                        for(var i = 1;i<xmlModel.length;i++){
+                                                            if(pattern.test(xmlModel[i].value)){
+                                                                xmlModel[i].setDisabled(false);
+                                                            }else{
+                                                                xmlModel[i].setDisabled(true);
+                                                            }
+                                                        }
+                                                        // console.log(Ext.getCmp('loadRenameWin'));
+                                                    }
+                                                    // result.nodename
+                                                    // console.log(result.getElementsByTagName('key'));
+                                                }
+                                            })
+                                            
+                                            Ext.create('program.view.window.RenameWindow', {
+                                                sources: "xml",
+                                                text: text,
+                                                xmlFile: "ddc",
+                                                loadingPanel: __this.loadingMsg,
+                                                isUseOk: true
+                                            })
+                                            win.close();
+                                        }
+                                        },
+                                        {
+                                            text: 'Cancel', handler: function () {
+                                            win.close();
+                                        }
+                                        }
+                                    ]
+                                })
+
+                            }
+                        },
+                        {
+                            text: "open",
+                            bind: {
+                                hidden: "{linkDataBase}"
+                            },
+                            handler: function () {
+                                function getDevXmlStore() {
+                                    var store = null;
+                                    myAjax("", function (response) {
+                                        try {
+                                            store = Ext.decode(response.responseText);
+                                            // console.log(response);
                                         } catch (e) {
                                         }
                                     }, {
@@ -114,10 +219,18 @@ Ext.define('program.view.tree.DevTreeController', {
                                                 Ext.Msg.alert('Info', 'Plase select file name.');
                                                 return;
                                             }
+                                            __this.loadingMsg = Ext.Msg.show({
+                                                modal:false,
+                                                title:"提示",
+                                                msg:"正在加载数据...",
+                                                closable:true,
+                                                width:300,
+                                                wait:true
+                                            })
                                             Ext.Ajax.request({
                                                 url:"resources/inspect.php",
                                                 method:"GET",
-                                                params: { file_name: text},
+                                                params: { file_name: text, xmlFile: "devxml"},
                                                 success:function(response,opts){
                                                     var result = response.responseText;
                                                     // var pattern = /(\s\n)?<\/?xml>(\s\n)?/g;
@@ -138,16 +251,20 @@ Ext.define('program.view.tree.DevTreeController', {
                                                     // console.log(result.getElementsByTagName('key'));
                                                 }
                                             })
+                                            
                                             Ext.create('program.view.window.RenameWindow', {
                                                 sources: "xml",
                                                 text: text,
+                                                xmlFile: "devxml",
+                                                loadingPanel: __this.loadingMsg,
+                                                isUseOk: false
                                             })
                                             win.close();
                                         }
                                         },
                                         {
                                             text: 'Cancel', handler: function () {
-                                            win.close();
+                                            // win.close();
                                         }
                                         }
                                     ]

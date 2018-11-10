@@ -11,6 +11,7 @@ Ext.define('program.view.grid.BackupGrid', {
     viewModel: {
         type: 'grid-backupgrid'
     },
+    title: '',
     width: "100%",
     height: "100%",
     region: 'center',

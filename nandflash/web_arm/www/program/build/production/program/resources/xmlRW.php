@@ -56,15 +56,15 @@ if ($rw == 'r') {
 	          $path.=$v."/";
 	          }
 	        }
-            copy($fn,$path.$fn1[0].".lcg");
-	        echo $path.$fn1[0].".lcg";
+            copy($fn,$path.$fn1[0].".lgc");
+	        echo $path.$fn1[0].".lgc";
 	    }
      }else{
         if($fn1[0] === 'undefined'){
             return;
         }
-        file2dir("../1000", "./lgc/", $fn1[0].".lcg");
-        echo 'success save as 1000.lcg in ./lgc/1000.lcg';
+        file2dir("../1000", "./lgc/", $fn1[0].".lgc");
+        echo 'success save as 1000.lcg in ./lgc/1000.lgc';
      }
 }
 

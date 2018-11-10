@@ -6,7 +6,7 @@
     
 
     $filePath = './model/'.$model_file;   //模版文件路径
-    $mainPath = './devxml/'.$main_file;  //主文件路径
+    $mainPath = './ddc/'.$main_file;  //主文件路径
 
     $dom = new DOMDocument('1.0','UTF-8');
     $dom -> load($mainPath);
